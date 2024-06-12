@@ -17,6 +17,9 @@ import {
   supabase,
   tailwindCss,
   typescript,
+  redhat,
+  openshift,
+  openstack,
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -30,16 +33,16 @@ const skillsSectionData = {
     {
       title: 'I already know',
       skills: [
-        react({
+        redhat({
           level: 5,
           description:
             'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),
-        typescript({
+        openstack({
           level: 4,
           description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
         }),
-        sass({
+        openshift({
           level: 4,
           description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
         }),
@@ -69,9 +72,8 @@ const skillsSectionData = {
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:ir', name: 'Persian - native' },
+        { icon: 'circle-flags:us', name: 'English - B2' },
       ],
     },
   ],

@@ -164,3 +164,59 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+export const redhat = createSkillFactory({
+  name: 'Red Hat',
+  icon: 'simple-icons:redhat',
+  iconColor: '#EE0000',
+  url: 'https://redhat.com/',
+});
+
+export const openshift = createSkillFactory({
+  name: 'Red Hat',
+  icon: 'simple-icons:redhatopenshift',
+  iconColor: '#EE0000',
+  url: 'https://redhat.com/',
+});
+
+export const openstack = createSkillFactory({
+  name: 'Red Hat',
+  icon: 'simple-icons:openstack',
+  iconColor: '#ED1944',
+  url: 'https://redhat.com/',
+});
+
+export const vmware = createSkillFactory({
+  name: 'VMware',
+  icon: 'simple-icons:vmware',
+  iconColor: '#607078',
+  url: 'https://www.vmware.com/',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://www.python.org/',
+});
+
+export const cpanel = createSkillFactory({
+  name: 'cPanel',
+  icon: 'simple-icons:cpanel',
+  iconColor: '#FF6C2C',
+  url: 'https://www.cpanel.net/',
+});
+
+export const mariadb = createSkillFactory({
+  name: 'MariaDB',
+  icon: 'simple-icons:mariadb',
+  iconColor: '#003545',
+  url: 'https://mariadb.com/',
+});
+
+export const hp = createSkillFactory({
+  name: 'HP',
+  icon: 'simple-icons:hp',
+  iconColor: '#0096D6',
+  url: 'https://hp.com/',
+});

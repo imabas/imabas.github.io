@@ -173,17 +173,17 @@ export const redhat = createSkillFactory({
 });
 
 export const openshift = createSkillFactory({
-  name: 'Red Hat',
+  name: 'Red Hat Open Shift',
   icon: 'simple-icons:redhatopenshift',
   iconColor: '#EE0000',
-  url: 'https://redhat.com/',
+  url: 'https://www.okd.io/',
 });
 
 export const openstack = createSkillFactory({
-  name: 'Red Hat',
+  name: 'OpenStack',
   icon: 'simple-icons:openstack',
   iconColor: '#ED1944',
-  url: 'https://redhat.com/',
+  url: 'https://www.openstack.org/',
 });
 
 export const vmware = createSkillFactory({
@@ -219,4 +219,102 @@ export const hp = createSkillFactory({
   icon: 'simple-icons:hp',
   iconColor: '#0096D6',
   url: 'https://hp.com/',
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'simple-icons:linux',
+  iconColor: '#FCC624',
+  url: 'https://www.linux.org/',
+});
+
+export const go = createSkillFactory({
+  name: 'GO',
+  icon: 'simple-icons:go',
+  iconColor: '#00ADD8',
+  url: 'https://go.dev/',
+});
+
+export const c = createSkillFactory({
+  name: 'C',
+  icon: 'simple-icons:c',
+  iconColor: '#A8B9CC',
+  url: '#',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://www.docker.com/',
+});
+
+export const git = createSkillFactory({
+  name: 'Git',
+  icon: 'simple-icons:git',
+  iconColor: '#F05032',
+  url: 'https://www.git-scm.com/',
+});
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'simple-icons:kubernetes',
+  iconColor: '#326CE5',
+  url: 'https://kubernetes.io/',
+});
+
+export const mikrotik = createSkillFactory({
+  name: 'Mikrotik',
+  icon: 'simple-icons:mikrotik',
+  iconColor: '#293239',
+  url: 'https://mikrotik.com/',
+});
+
+export const redis = createSkillFactory({
+  name: 'Redis',
+  icon: 'simple-icons:redis',
+  iconColor: '#FF4438',
+  url: 'https://redis.io/',
+});
+
+export const graphql = createSkillFactory({
+  name: 'GraphQL',
+  icon: 'simple-icons:graphql',
+  iconColor: '#E10098',
+  url: 'https://graphql.org/',
+});
+
+export const posthog = createSkillFactory({
+  name: 'PostHog',
+  icon: 'simple-icons:posthog',
+  iconColor: '#000000',
+  url: 'https://posthog.com/',
+});
+
+export const mqtt = createSkillFactory({
+  name: 'MQTT',
+  icon: 'simple-icons:mqtt',
+  iconColor: '#660066',
+  url: 'https://mqtt.org/',
+});
+
+export const qt = createSkillFactory({
+  name: 'Qt',
+  icon: 'simple-icons:qt',
+  iconColor: '#41CD52',
+  url: 'https://www.qt.io/',
+});
+
+export const ansible = createSkillFactory({
+  name: 'Ansible',
+  icon: 'simple-icons:ansible',
+  iconColor: '#EE00002',
+  url: 'https://www.ansible.com/',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'simple-icons:terraform',
+  iconColor: '#844FBA',
+  url: 'https://www.terraform.io/',
 });

@@ -1,24 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
-  typescript,
-  vue,
-  vmware,
-  python,
-  cpanel,
-  mariadb,
-  hp,
-} from '../helpers/skills';
+import { website } from '../helpers/links';
+import { vmware, python, cpanel, mariadb, hp, docker, mikrotik, c, linux, qt } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -29,23 +12,20 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
+      role: 'Infrastructure Specialist',
       company: 'Fanavaran Payesh Barzin Pasargad',
       image: import('@/assets/logos/barzin.png'),
       dates: [new Date('2023-06'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Network Design.
+        - Develop and deploy shovel positioning system.
+        - Develop and deploy e-maintenance system for dump trucks.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [python(), qt(), docker(), linux(), mikrotik(), c()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [website({ url: 'https://barzintechno.com/' })],
     },
     {
       role: 'Infrastructure Specialist',

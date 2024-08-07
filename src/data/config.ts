@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Amirabbas Rafieian',
     description: 'DevOps',
-    faviconPath: '/src/assets/my-image.jpeg',
+    faviconPath: '/src/assets/logo.svg',
   },
   pdf: {
     footer:

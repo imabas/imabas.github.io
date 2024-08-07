@@ -14,7 +14,7 @@ const educationSectionData = {
       title: 'Electrical engineering',
       institution: 'Isfahan University of Technology',
       image: import('@/assets/logos/Isfahan_University_of_Technology.png'),
-      dates: [new Date('2024.02'), new Date()],
+      dates: [new Date('2024.02'), null],
       description: "Bachelor's degree.",
       links: [website({ url: 'https://iut.ac.ir/' })],
     },

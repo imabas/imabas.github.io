@@ -20,6 +20,7 @@ const experienceSectionData = {
         - Network Design.
         - Develop and deploy shovel positioning system.
         - Develop and deploy e-maintenance system for dump trucks.
+        in sarcheshmeh copper mine
       `,
       tagsList: {
         title: 'Technologies',

@@ -27,7 +27,7 @@ const mainSectionData = {
   ],
   description:
     'DevOps specialist passionate about developing and automating organizational processes. Excellent problem-solving skills and ability to perform well in a team. Looking to get better positions, as well as grow and develop my own skills as a DevOps engineer.',
-  tags: [{ name: 'Available for new adventures' }, { name: 'Working on side project' }],
+  tags: [{ name: 'Available for new adventures' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',

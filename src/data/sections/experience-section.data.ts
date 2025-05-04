@@ -1,7 +1,7 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { website } from '../helpers/links';
-import { vmware, python, cpanel, mariadb, hp, docker, mikrotik, c, linux, qt } from '../helpers/skills';
+import { vmware, python, cpanel, mariadb, hp, docker, mikrotik, c, linux, qt, ansible } from '../helpers/skills';
 
 const experienceSectionData = {
   config: {
@@ -12,10 +12,31 @@ const experienceSectionData = {
   },
   jobs: [
     {
+      role: 'DevOps Engineer',
+      company: 'Iranicard',
+      image: import('@/assets/logos/iranicard.jpg'),
+      dates: [new Date('2024-10'), null],
+      description: `
+        - Automate installation and configuration of Etherium Core full nodes using Ansible playbooks, ensuring idempotent deployment.
+        - Monitor node health, blockchain sync status, and disk usage; implement alerting on sync failures or high latency.
+        - Collaborate with security teams to harden node servers and secure RPC interfaces.
+        - Design, develop, and maintain Ansible playbooks and roles to automate provisioning and configuration of Linux servers.
+        - Apply Dockerfile best practices: minimize layers, avoid unnecessary packages, and use official slim or Alpine base images to reduce image size and build times.
+        - Implement multi-stage builds and leverage Docker BuildKit to parallelize stages for faster builds.
+        - Develop and maintain CI/CD pipelines.
+        - Implement resource partitioning strategies to maximize GPU utilization and minimize fragmentation in multi-tenant environments.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [python(), docker(), linux(), mikrotik(), ansible()],
+      },
+      links: [website({ url: 'https://iranicard.com/' })],
+    },
+    {
       role: 'Infrastructure Specialist',
       company: 'Fanavaran Payesh Barzin Pasargad',
       image: import('@/assets/logos/barzin.png'),
-      dates: [new Date('2023-06'), null],
+      dates: [new Date('2023-06'), new Date('2024-10')],
       description: `
         - Network Design.
         - Develop and deploy shovel positioning system.

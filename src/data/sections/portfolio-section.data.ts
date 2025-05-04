@@ -13,6 +13,7 @@ import {
   python,
   qt,
   redis,
+  terraform,
 } from '../helpers/skills';
 
 const portfolioSectionData = {
@@ -28,9 +29,28 @@ const portfolioSectionData = {
   },
   projects: [
     {
+      name: 'IranExchange',
+      image: import('@/assets/portfolio/iranexchange.png'),
+      dates: [new Date('2024-11'), null],
+      details: [
+        { label: 'Team size', value: '+100 people' },
+        { label: 'My role', value: ['DevOps Engineer', 'Development Advisor'] },
+        { label: 'Company', value: 'Iranicard' },
+        { label: 'Category', value: ['Web app'] },
+      ],
+      pdfDetails: [{ label: 'Demo', value: 'https://iranexchange.com', url: 'https://iranexchange.com' }],
+      description:
+        'Iran Exchange, one of Iran’s leading digital asset trading platforms, was launched to make the new world of cryptocurrencies more accessible to Iranian users.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [kubernetes(), docker(), redis(), postgreSql(), ansible(), terraform()],
+      },
+      links: [demo({ url: 'https://iranexchange.com' })],
+    },
+    {
       name: 'HuHu',
       image: import('@/assets/portfolio/huhu-english.png'),
-      dates: [new Date('2024-02'), null],
+      dates: [new Date('2024-02'), new Date('2024-11')],
       details: [
         { label: 'Team size', value: '10 people' },
         { label: 'My role', value: ['DevOps Engineer', 'Development Advisor'] },
@@ -49,7 +69,7 @@ const portfolioSectionData = {
     {
       name: 'SmartHome',
       image: import('@/assets/portfolio/smarthome.png'),
-      dates: [new Date('2024-01'), null],
+      dates: [new Date('2024-01'), new Date('2024-08')],
       details: [
         { label: 'Team size', value: '2 people' },
         { label: 'My role', value: ['Embedded Developer', 'Backend Developer', 'DevOps Engineer'] },
